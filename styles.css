@@ -1,0 +1,114 @@
+body {
+    font-family: Tahoma, Arial, Geneva, sans-serif;
+    color #797979
+}
+
+#contenedor {
+    width: 693px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+#encabezado {
+    height: 32px;
+    margin-bottom: 40px;
+    width: 693px;
+}
+
+#contenido {
+    width: 500px;
+    float: left;
+    margin-bottom: 70px;
+}
+
+#contenido h2 {
+    font-size: 18px;
+    color: #464545;
+    font-weight: normal
+}
+
+#contenido h2 span {
+    color: #a7a7a7;
+}
+
+#contenido p {
+    font-size: 13px;
+}
+
+#menu {
+    width: 180px;
+    float: left;
+    text-transform: capitalize;
+}
+
+#menu ul li {
+    border-left: 4px solid #e93700;
+    margin-top: 6px;
+    padding: 2px 0 2px 4px;
+    list-style: none;
+}
+
+#menu ul li a {
+    font-size: 17px;
+    color: #464545;
+    text-decoration: none;
+}
+
+#menu ul li a:focus {
+    color: #e93700;
+    text-transform: uppercase;
+}
+
+#menu ul li a:hover {
+    color: #e93700;
+    
+    border-bottom: 4px solid #e93700;
+}
+
+#menu ul {
+    margin: 0;
+    padding-left: 80px;
+}
+
+#menu h3 {
+    color: #e93700;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 80px;
+}
+
+#pie {
+    clear: both;
+    height: 296px;
+    background: url(Images/camara.jpg) no-repeat;
+    background-position: bottom right;
+}
+
+#pie h2 {
+    font-size: 18px;
+    color: #464545;
+    font-weight: normal;
+}
+
+#pie h2 span {
+    color: #a7a7a7;
+}
+
+#pie p {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+    clear: both;
+}
+
+#fotos {
+    width: 370px;
+}
+
+#fotos .foto {
+    width: 100px;
+    height: 69px;
+    float: left;
+    margin: 10px 9px 15px 9px;
+    background: silver;
+}
